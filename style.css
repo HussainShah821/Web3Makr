@@ -14,6 +14,19 @@
 }
 
 .home-background{
-    background-color: #110915 !important;
+   
+    margin-top: -0.3%;
+    background-image: url(./Assets/Images/Homebg.png)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+   
+}
+
+@media screen and (max-width: 767px) {
+    .home-background{
+        height: 400px;
+    }
+    
 }
 
