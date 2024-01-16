@@ -1,0 +1,19 @@
+.nav-background{
+    background-color: #110915;
+}
+.dark{
+
+    color: #ffffff66 !important;
+}
+.active{
+    color: azure !important;
+}
+
+.dark:hover{
+    color :azure !important;
+}
+
+.home-background{
+    background-color: #110915 !important;
+}
+
