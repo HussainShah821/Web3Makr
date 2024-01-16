@@ -22,11 +22,97 @@
     height: 1500px;
    
 }
-
 @media screen and (max-width: 767px) {
     .home-background{
-        height: 400px;
+        height: 700px;
     }
     
 }
+
+#web3{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Inter;
+font-size: 90px;
+font-style: normal;
+font-weight: 600;
+line-height: 90px; /* 100% */
+letter-spacing: -3px;
+padding-top: 100px;
+padding-left: 206px;
+padding-right: 205px;
+}
+
+@media screen and (max-width: 767px) {
+    #web3{
+        font-size: 45px;
+        font-weight: 250;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 35px;
+        letter-spacing: -1px;
+        line-height: 40px; /* 100% */
+
+
+    }
+    
+}
+
+#web3-desc{
+    color: rgba(255, 255, 255, 0.70);
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: 34px; /* 113.333% */
+letter-spacing: -0.4px;
+padding-top: 20px;
+padding-left: 406px;
+padding-right: 405px;
+}
+@media screen and (max-width: 767px) {
+    #web3-desc{
+        font-size: 15px;
+        font-weight: 250;
+        padding-top: 10px;
+        padding-left: 125px;
+        padding-right: 115px;
+        letter-spacing: 0px;
+        line-height: 20px; /* 100% */
+
+
+    }
+    
+}
+
+.play img{
+    height: 83.63px;
+    width: 82.94px;
+    margin-top: 4%;
+    margin-left: 47%;
+}
+
+@media screen and (max-width: 767px) {
+    .play img{
+        height: 43.63px;
+    width: 42.94px;
+    }
+}
+.Screen img{
+    height: auto;
+    width: 1200px;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 767px) {
+    .Screen img{
+      height: auto; /* Adjust the height for mobile as needed */
+      width: 70%; /* Full width on mobile */
+      margin-top: 4%; /* You can adjust this as needed */
+      margin-left: 15%; /* Reset left margin on mobile */
+    }
+  }
+
 
