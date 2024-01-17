@@ -32,7 +32,7 @@
 #web3{
 color: rgba(255, 255, 255, 0.90);
 text-align: center;
-font-family: Inter;
+font-family: "Inter", sans-serif;
 font-size: 90px;
 font-style: normal;
 font-weight: 600;
@@ -61,7 +61,8 @@ padding-right: 205px;
 #web3-desc{
     color: rgba(255, 255, 255, 0.70);
 text-align: center;
-font-family: Inter;
+font-family: "Inter", sans-serif;
+
 font-size: 30px;
 font-style: normal;
 font-weight: 500;
@@ -114,5 +115,59 @@ padding-right: 405px;
       margin-left: 15%; /* Reset left margin on mobile */
     }
   }
+.start-building{
+    background-color: white;
 
+}
+  .part1{
+    background-image: url(./Assets/Images/Group\ 110.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: right;
+  }
+@media screen and (max-width: 767px) {
+    .part1{
+        height: 480px;
+    }
+    
+}
+  .part2{
+    background-image: url(./Assets/Images/Group\ 110.png);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position-x: left;
+  }
+  @media screen and (max-width: 767px) {
+    .part2{
+        height: 480px;
+    }
+    
+}
 
+.image-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media screen and (max-width: 767px) {
+    .image-list{
+        margin-right: 10%;
+        margin-left: -10%;
+        margin-top: 3%;
+    }
+}
+.image-list li{
+    margin-right: 2%;
+}
+@media screen and (max-width: 767px) {
+   
+    .image-list li{
+        margin-right: 6%;
+        height: 20px;
+        width: 200px;
+        display: flex;
+    } 
+    
+}
