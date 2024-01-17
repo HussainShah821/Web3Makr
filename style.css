@@ -35,7 +35,7 @@
 #web3 {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     font-size: 90px;
     font-style: normal;
     font-weight: 600;
@@ -134,7 +134,7 @@
 }
 
 .part1 {
-    background-image: url(./Assets/Images/Group\ 110.png);
+    background-image: url(./Assets/Images/Group\ 89.png);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: right;
@@ -147,9 +147,10 @@
 }
 
 .part2 {
-    background-image: url(./Assets/Images/Group\ 110.png);
+    background-image: url(./Assets/Images/Group\ 89.png);
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 60%;
+
     background-position-x: left;
 }
 
@@ -161,7 +162,7 @@
 
 .image-list {
     list-style: none;
-    margin-top: 8%;
+    padding-top: 8%;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -190,8 +191,8 @@
 }
 
 .image1 img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 70%;
 
     padding-top: 20%;
 }
@@ -334,4 +335,9 @@
     line-height: 29.029px;
     /* 137.5% */
     letter-spacing: -0.291px;
+}
+
+#frame{
+    height: 70%;
+    width: 70%;
 }
