@@ -285,9 +285,8 @@
 }
 
 #Bookmark {
-    padding-top: 3%;
     display: flex;
-    width: 60%;
+    width: 100%;
     height: auto;
     flex-shrink: 0;
 }
@@ -300,9 +299,9 @@
 }
 
 .card-title {
-    color: var(--Dark, #18214D);
+    color: #18214D;
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16.03px;
     font-style: normal;
     font-weight: 600;
     line-height: 21.857px;
