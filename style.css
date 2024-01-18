@@ -149,8 +149,8 @@
 .part2 {
     background-image: url(./Assets/Images/Group\ 89.png);
     background-repeat: no-repeat;
-    background-size: 60%;
-
+    background-size: 70%;
+    padding-top: 18%;
     background-position-x: left;
 }
 
@@ -284,16 +284,12 @@
     }
 }
 
-#Bookmark {
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-}
+
 
 @media screen and (max-width:767px) {
     #Bookmark {
-        width: 84%;
+        width: 87%;
+        margin-top: -25%;
         padding-left: 79%;
     }
 }
@@ -316,7 +312,7 @@
 #text4 {
     color: var(--Dark, #18214D);
     font-family: "Inter", sans-serif;
-    font-size: 20.114px;
+    font-size: 13.114px;
     font-style: normal;
     font-weight: 400;
     line-height: 18.943px;
@@ -328,7 +324,7 @@
 #stats {
     color: var(--Dark, #18214D) !important;
     font-family: "Inter", sans-serif;
-    font-size: 14.7px !important;
+    font-size: 11.7px !important;
     font-style: normal !important;
     font-weight: 600 !important;
     line-height: 29.029px;
@@ -337,6 +333,17 @@
 }
 
 #frame{
-    height: 70%;
-    width: 70%;
+    height: 925px;
+    width: 855px;
+}
+
+@media screen and (max-width: 767px) {
+    .card-img{
+        margin-top: -12%;
+    }
+    
+}
+#features{
+    width: 22px;
+    height: 22px;
 }
