@@ -131,7 +131,7 @@
         /* Full width on mobile */
         margin-top: 4%;
         /* You can adjust this as needed */
-        margin-left: 19%;
+        margin-left: 37%;
         /* Reset left margin on mobile */
     }
 }
@@ -201,14 +201,15 @@
 
 .image1 img {
     height: auto;
-    margin-left: -10%;    
+    margin-left: 12%;    
     margin-top: 30%;
 }
 
+
 @media screen and (max-width: 767px) {
     .image1 img {
-        height: auto;
-        width: 700px;
+        height: 100%;
+        width: 100%;
         padding-left: 0%;
     }
 }
@@ -295,7 +296,8 @@
 
 @media screen and (max-width: 767px) {
     #text-list {
-        margin-left: auto;
+        margin-left: auto; 
+        margin-top: 177%;
     }
 }
 
@@ -426,3 +428,65 @@
     }
     
 }
+.section3{
+    background-color: #110C18;
+    background-image: url(./Assets/Images/Section3-bg.png);
+    height: 100%;
+    background-position-y: 30%;    
+}
+
+.section3-bg{
+margin-left: -5%;
+position: absolute;
+width: 94%;
+}
+
+.future{
+    color: white;
+    font-size: 65px;
+    font-family: "Inter";
+    padding-top: 5%;
+    padding-left: 14%;
+    font-weight: 600;
+    position: absolute;
+}
+@media screen and (max-width:767px) {
+    .future{
+       padding-left: 0%;
+    }}
+.future2{
+    color: #F1F1F1;
+    font-size: 32px;
+    margin-left: 8%;
+    padding-top: 15%;
+    width: 85%;
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px) {
+    .future2{
+        padding-top: 48%;
+        
+    }
+    
+}
+.future-list{
+    color: #524E55;
+    font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 44px; /* 137.5% */
+letter-spacing: -1.5px;
+    text-align: center;
+    margin-top: 10%;
+}
+.image-container {
+    margin-top: 15px; /* Adjust the margin as needed */
+}
+
+  .image-container img {
+    max-width: 60%;
+    height: auto;
+  }
