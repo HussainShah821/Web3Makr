@@ -605,3 +605,39 @@ letter-spacing: -0.2px;
     flex: 0 0 33.33%; /* Each slide takes up 33.33% of the container width, adjust as needed */
     box-sizing: border-box;
   }
+  .section7{
+    background-color: white;
+    background-image: url(./Assets/Images/Section7bg.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: fit-content;
+  }
+  .start{
+    height: auto;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 0%;
+  }
+  .start-text{
+    color: #1A1A1A;
+font-family: "Inter";
+font-size: 90px;
+font-style: normal;
+font-weight: 600;
+line-height: 100px; /* 111.111% */
+letter-spacing: -2.4px;
+width: 60%;
+padding-top: 12%;
+
+  }
+  .start-text2{
+    color: #979797;
+font-family: "Inter";
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 125% */
+letter-spacing: -0.3px;
+width: 60%;
+  }
+ 
