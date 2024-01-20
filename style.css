@@ -586,3 +586,22 @@ letter-spacing: -0.2px;
     padding-bottom: 3%;
     color: #18214D;
 }
+.section6{
+    background-image: url(./Assets/Images/Group\ 120section7bg.png);
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    flex: 0 0 33.33%; /* Each slide takes up 33.33% of the container width, adjust as needed */
+    box-sizing: border-box;
+  }
