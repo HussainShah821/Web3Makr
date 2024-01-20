@@ -562,3 +562,27 @@ width: 80%;
     width: 80%;
 
 }
+
+.list-heading{
+    color: #1A1A1A;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.5px;
+}
+.list-desc{
+    color: #979797;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+letter-spacing: -0.2px;
+}
+.our-blog{
+    padding-left: 11%;
+    padding-bottom: 3%;
+    color: #18214D;
+}
