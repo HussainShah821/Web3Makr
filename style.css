@@ -537,112 +537,188 @@
 
 }
 
-.section5{
+.section5 {
     background-color: #FFFFFF;
     height: fit-content;
 }
-.sec5-heading{
+
+.sec5-heading {
     color: #1A1A1A;
-font-family: "Inter";
-font-size: 65px;
-font-style: normal;
-font-weight: 600;
-line-height: 74px; /* 113.846% */
-letter-spacing: -2.4px;
-width: 80%;
+    font-family: "Inter";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    /* 113.846% */
+    letter-spacing: -2.4px;
+    width: 80%;
 }
-.sec5-desc{
+
+.sec5-desc {
     color: #979797;
     font-family: "Inter";
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px; /* 125% */
+    line-height: 40px;
+    /* 125% */
     letter-spacing: -0.3px;
     width: 80%;
 
 }
 
-.list-heading{
+.list-heading {
     color: #1A1A1A;
     font-family: "Inter";
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 28px; /* 140% */
+    line-height: 28px;
+    /* 140% */
     letter-spacing: -0.5px;
 }
-.list-desc{
+
+.list-desc {
     color: #979797;
-font-family: "Inter";
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 30px; /* 150% */
-letter-spacing: -0.2px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: -0.2px;
 }
-.our-blog{
+
+.our-blog {
     padding-left: 11%;
     padding-bottom: 3%;
     color: #18214D;
 }
-.section6{
+
+.section6 {
     background-image: url(./Assets/Images/Group\ 120section7bg.png);
     height: fit-content;
     background-repeat: no-repeat;
+
 }
+
 .slider-container {
     overflow: hidden;
     width: 100%;
-  }
+}
 
-  .slider {
+.slider {
     display: flex;
     transition: transform 0.5s ease-in-out;
-  }
+}
 
-  .slide {
-    flex: 0 0 33.33%; /* Each slide takes up 33.33% of the container width, adjust as needed */
+.slide {
+    flex: 0 0 33.33%;
+    /* Each slide takes up 33.33% of the container width, adjust as needed */
     box-sizing: border-box;
-  }
-  .section7{
+}
+
+.section7 {
     background-color: white;
     height: 15%;
-  }
-  .start{
+}
+
+.start {
     height: auto;
     width: 100%;
     padding-top: 10%;
     padding-left: 0%;
-  }
-  .start-text{
-    color: #1A1A1A;
-font-family: "Inter";
-font-size: 90px;
-font-style: normal;
-font-weight: 600;
-line-height: 100px; /* 111.111% */
-letter-spacing: -2.4px;
-width: 60%;
-padding-top: 12%;
+}
 
-  }
-  .start-text2{
+.start-text {
+    color: #1A1A1A;
+    font-family: "Inter";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100px;
+    /* 111.111% */
+    letter-spacing: -2.4px;
+    width: 60%;
+    padding-top: 12%;
+
+}
+
+.start-text2 {
     color: #979797;
-font-family: "Inter";
-font-size: 32px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; /* 125% */
-letter-spacing: -0.3px;
-width: 60%;
-  }
- .footer
-{
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 125% */
+    letter-spacing: -0.3px;
+    width: 60%;
+}
+
+.section7 .col-md-6 .btn-custom {
+    margin: 5%;
+    margin-left: 20%;
+}
+
+.footer {
     background-image: url(./Assets/Images/Section7bg.png);
-    
+    display: flex;
     background-position: bottom;
     background-repeat: no-repeat;
     background-color: #000;
+    background-size: 100%;
 
+}
+
+.footer-logo {
+
+    margin-left: 50%;
+    height: 50px;
+
+}
+
+@media screen and (max-width:767px) {
+    .footer-logo {
+        margin-left: 40%;
+    }
+}
+
+.footer-list {
+    justify-content: center;
+}
+
+.copyright {
+    color: #818F94;
+
+    /* Body 16 / Regular */
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.5px;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 767px) {
+    .copyright {
+        margin-left: 38%;
+    }
+}
+
+.footer-icons {
+
+    padding: 8px;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    justify-content: end;
+}
+
+@media screen and (max-width:767px) {
+    .footer-icons {
+        justify-content: center;
+    }
 }
