@@ -490,7 +490,7 @@
 
 .future-list {
     color: #524E55;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -502,8 +502,169 @@
 
 }
 
+
+.round-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.round-image {
+    display: block;
+    position: absolute;
+    width: 92%;
+    /* Set the width of your image */
+    height: auto;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -70px;
+    left: -34px;
+    width: 140%;
+    
+    color: #F9F9F9;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 93.75% */
+letter-spacing: -0.55px;
+}
+
+.future-img-row {
+    height: 280px;
+}
+
+@media screen and (max-width: 767px) {
+    .future-img-row {
+        height: 800px;
+    }
+}
+
+.future-img-row2 {
+    height: 280px;
+}
+
+@media screen and (max-width: 767px) {
+    .future-img-row2 {
+        height: 800px;
+    }
+}
+
+.future-img1 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+}
+
+.future-img2 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+
+}
+.future-img3 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+
+}
+.future-img4 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+
+}
+.future-img5 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+
+}
+.future-img6 {
+    position: absolute;
+    top: 90px;
+    /* Adjust this value to create a transparent gap */
+    left: 100px;
+    /* Adjust this value to create a transparent gap */
+    width: 220px;
+    /* Set the total width including the border */
+    height: 220px;
+    /* Set the total height including the border */
+    border: 10px solid #F6851B;
+    /* Orange border with transparency */
+    border-radius: 50%;
+    /* Make the border round */
+    transform: translate(-50%, -50%);
+    /* Center the image using translate */
+
+}
+
 .image-container {
-    margin-top: 15px;
+    margin-top: 5px;
     /* Adjust the margin as needed */
 }
 
@@ -678,7 +839,7 @@
 
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .footer-logo {
         margin-left: 40%;
     }
@@ -717,7 +878,7 @@
     justify-content: end;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
     .footer-icons {
         justify-content: center;
     }
