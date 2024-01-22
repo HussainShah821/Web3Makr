@@ -511,11 +511,11 @@
 .round-image {
     display: block;
     position: absolute;
-    width: 92%;
+    width: 87%;
     /* Set the width of your image */
     height: auto;
-    margin-top: 4%;
-    margin-left: 4%;
+    margin-top: 6%;
+    margin-left: 6%;
 }
 
 .image-text {
@@ -570,6 +570,7 @@ letter-spacing: -0.55px;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 }
 
 .future-img2 {
@@ -582,12 +583,13 @@ letter-spacing: -0.55px;
     /* Set the total width including the border */
     height: 220px;
     /* Set the total height including the border */
-    border: 10px solid #F6851B;
+    border: 10px solid #54D9E1;
     /* Orange border with transparency */
     border-radius: 50%;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 
 }
 .future-img3 {
@@ -600,12 +602,13 @@ letter-spacing: -0.55px;
     /* Set the total width including the border */
     height: 220px;
     /* Set the total height including the border */
-    border: 10px solid #F6851B;
+    border: 10px solid #b7e703;
     /* Orange border with transparency */
     border-radius: 50%;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 
 }
 .future-img4 {
@@ -618,12 +621,13 @@ letter-spacing: -0.55px;
     /* Set the total width including the border */
     height: 220px;
     /* Set the total height including the border */
-    border: 10px solid #F6851B;
+    border: 10px solid #646464;
     /* Orange border with transparency */
     border-radius: 50%;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 
 }
 .future-img5 {
@@ -636,12 +640,13 @@ letter-spacing: -0.55px;
     /* Set the total width including the border */
     height: 220px;
     /* Set the total height including the border */
-    border: 10px solid #F6851B;
+    border: 10px solid #ef6830;
     /* Orange border with transparency */
     border-radius: 50%;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 
 }
 .future-img6 {
@@ -654,12 +659,13 @@ letter-spacing: -0.55px;
     /* Set the total width including the border */
     height: 220px;
     /* Set the total height including the border */
-    border: 10px solid #F6851B;
+    border: 10px solid #EDD103;
     /* Orange border with transparency */
     border-radius: 50%;
     /* Make the border round */
     transform: translate(-50%, -50%);
     /* Center the image using translate */
+    cursor: pointer;
 
 }
 
